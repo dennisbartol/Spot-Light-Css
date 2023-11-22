@@ -1,0 +1,107 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container 
+{
+    /* position: relative; */
+    width: 100%; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: #343434; 
+}
+
+.container h3 
+{
+    position: absolute; 
+    font-size: 10em; 
+    color: #444444; 
+    line-height: 1em; 
+    text-shadow: -2px 2px 0 #222, 
+    -4px 4px 0 #222, 
+    -6px 6px 0 #222, 
+    -8px 8px 0 #222, 
+    -10px 10px 0 #222, 
+    -12px 12px 0 #222, 
+    -14px 14px 0 #222, 
+    -16px 16px 0 #222, 
+    -18px 18px 0 #222,
+    -18px 18px 20px #010,
+    -18px 18px 30px #010;
+}
+
+.container h3:nth-child(2)
+{
+color: #03a9f4; 
+text-shadow: -2px 2px 0 #0375a7, 
+    -4px 4px 0 #0375a7, 
+    -6px 6px 0 #0375a7, 
+    -8px 8px 0 #0375a7, 
+    -10px 10px 0 #0375a7, 
+    -12px 12px 0 #0375a7, 
+    -14px 14px 0 #0375a7, 
+    -16px 16px 0 #0375a7, 
+    -18px 18px 0 #0375a7,
+    -18px 18px 20px #010,
+    -18px 18px 30px #010;
+clip-path: circle(20% at 50% 130%);
+transition: clip-path 1.5s; 
+}
+
+.container h3:hover:nth-child(2) 
+{
+clip-path: circle(61% at 50% 130%)
+}
+
+
+.container h3:nth-child(3)
+{
+color: #eb115a; 
+text-shadow: -2px 2px 0 #971641, 
+    -4px 4px 0 #971641, 
+    -6px 6px 0 #971641, 
+    -8px 8px 0 #971641, 
+    -10px 10px 0 #971641, 
+    -12px 12px 0 #971641, 
+    -14px 14px 0 #971641, 
+    -16px 16px 0 #971641, 
+    -18px 18px 0 #971641,
+    -18px 18px 20px #010,
+    -18px 18px 30px #010;
+clip-path: circle(10% at 96% 20%);
+transition: clip-path 1.5s; 
+}
+
+.container h3:hover:nth-child(3) 
+{
+clip-path: circle(100% at 90% 20%)
+}
+
+
+.container h3:nth-child(4)
+{
+color: #1dc52b; 
+text-shadow: -2px 2px 0 #199123, 
+    -4px 4px 0 #199123, 
+    -6px 6px 0 #199123, 
+    -8px 8px 0 #199123, 
+    -10px 10px 0 #199123, 
+    -12px 12px 0 #199123, 
+    -14px 14px 0 #199123, 
+    -16px 16px 0 #199123, 
+    -18px 18px 0 #199123,
+    -18px 18px 20px #010,
+    -18px 18px 30px #010;
+clip-path: circle(10% at 0% 10%);
+transition: clip-path 1.5s; 
+}
+
+.container h3:hover:nth-child(4) 
+{
+clip-path: circle(121% at 0% 10%)
+}
