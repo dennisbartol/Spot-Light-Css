@@ -104,3 +104,18 @@ transition: clip-path 1.5s;
 {
 clip-path: circle(121% at 0% 10%)
 }
+
+
+@media screen and (max-width: 600px) { 
+
+.container 
+{
+    width: 98%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background: #343434; 
+}
+
+    
+}
